@@ -8,7 +8,8 @@ This phase establishes the **entire foundation** of the system. Every later AWS 
 
 The goal of Phase 1 is simple:
 
-```Turn application code into a portable, deterministic unit that can run anywhere without modification.
+```
+Turn application code into a portable, deterministic unit that can run anywhere without modification.
 ```
 
 This unit is the **Docker image.**
