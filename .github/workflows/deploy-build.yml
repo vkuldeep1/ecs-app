@@ -25,4 +25,4 @@ jobs:
           context: .
           push: true
           tags: |
-            your-dockerhub-username/your-app:${{ github.sha }}
+            ${{ secrets.DOCKERHUB_USERNAME }}/myapp:${{ github.sha }}
