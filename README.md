@@ -4,9 +4,9 @@ This repository documents an **end‑to‑end container deployment** using **Ama
 
 ---
 
-## 1. Big Picture
+## 1. Big Picture (One‑Minute Overview)
 
-**What I built:**
+**What you built:**
 
 > A system where GitHub builds a Docker image, ECS runs it as a managed service, and an Application Load Balancer routes traffic to it — without managing servers.
 
@@ -332,6 +332,8 @@ If something breaks, check in this order:
 
 ## 7. Final State Achieved
 
+You now have:
+
 * Immutable image deployments
 * Serverless container runtime
 * Health‑checked service
@@ -342,7 +344,17 @@ This is the **core ECS Fargate pattern** used in real systems.
 
 ---
 
-## 8. One Sentence Summary
+## 8. Next Possible Extensions
+
+* HTTPS with ACM
+* Auto scaling (CPU‑based)
+* OIDC auth for GitHub Actions
+* Infrastructure as Code (Terraform / CDK)
+* Full teardown & rebuild drill
+
+---
+
+## 9. One Sentence Summary
 
 > **GitHub builds images, ECS runs them, ALB routes traffic — nothing else is magic.**
 
