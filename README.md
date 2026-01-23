@@ -344,17 +344,7 @@ This is the **core ECS Fargate pattern** used in real systems.
 
 ---
 
-## 8. Next Possible Extensions
-
-* HTTPS with ACM
-* Auto scaling (CPU‑based)
-* OIDC auth for GitHub Actions
-* Infrastructure as Code (Terraform / CDK)
-* Full teardown & rebuild drill
-
----
-
-## 9. One Sentence Summary
+## 8. One Sentence Summary
 
 > **GitHub builds images, ECS runs them, ALB routes traffic — nothing else is magic.**
 
