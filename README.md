@@ -1,4 +1,4 @@
-# ECS Fargate + Docker Hub + GitHub Actions (Learning Project)
+# ECS Fargate + Docker Hub + GitHub Actions (Learning Project) #
 
 This repository documents an **end‑to‑end container deployment** using **Amazon ECS (Fargate)**, **Docker Hub**, and **GitHub Actions CI/CD**.
 
