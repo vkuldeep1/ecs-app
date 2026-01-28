@@ -17,7 +17,8 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return f"{APP_NAME} running in {ENVIRONMENT}\n"
+    return f"{APP_NAME} running in {ENVIRONMENT}
+"
 
 @app.route("/health")
 def health():
